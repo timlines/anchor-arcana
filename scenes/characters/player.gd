@@ -7,6 +7,7 @@ extends Character
 
 func _physics_process(delta: float) -> void:
 	move_logic(delta)
+	jump_logic(delta)
 	move_and_slide()
 	
 func move_logic(delta):
@@ -26,3 +27,13 @@ func move_logic(delta):
 		velocity.x = vel_2d.x
 		velocity.z = vel_2d.y
 		
+
+func jump_logic(delta):
+	if is_on_floor():
+		if Input.is_action_just_pressed('jump'):
+			velocity.y = -jump_velocity
+			
+	var gravity = jump_gravity if velocity.y > 0.0 else fall_gravity
+	
+	apply_gravity(gravity, delta)
+	
