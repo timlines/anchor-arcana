@@ -1,1 +1,4 @@
 res://scenes/levels/game.tscn
+res://scenes/characters/player.tscn
+res://scenes/characters/camera_controller.tscn
+res://scenes/characters/camera_controller.gd

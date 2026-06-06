@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://drqn1110gg03g"]
+
+[ext_resource type="Script" uid="uid://byyothqd23xvg" path="res://scenes/characters/camera_controller.gd" id="1_xxs53"]
+
+[node name="CameraController" type="SpringArm3D" unique_id=271383437]
+spring_length = 6.5
+script = ExtResource("1_xxs53")
+min_limit_x = null
+max_limit_x = null
+horizontal_acceleration = null
+vertical_acceleration = null
+mouse_acceleration = null
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1983990243]
+current = true

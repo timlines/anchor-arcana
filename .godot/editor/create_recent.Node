@@ -1,2 +1,8 @@
+Camera3D
+SpringArm3D
+CSGTorus3D
+Node3D
+CollisionShape3D
+CharacterBody3D
 CSGBox3D
 CSGCombiner3D

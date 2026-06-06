@@ -1,13 +1,38 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1780766198
+::res://::1780766956
 icon.svg::CompressedTexture2D::8242674102888164130::1780698290::1780698299::1::::<><><>0<>0<>f22fb53b9e968a8eda86a41080f70e26<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1780698116::0::1::::<><><>0<>0<><>::
 ::res://data/::1780703604
-::res://graphics/::1780766428
-::res://graphics/test texture/::1780766537
+::res://graphics/::1780769455
+::res://graphics/characters/::1780769479
+Barbarian.glb::PackedScene::1068549156713218633::1780769479::1780769486::1::::<><><>0<>0<>f388772c7f8f0a15a5a88331987b4709<>res://.godot/imported/Barbarian.glb-0ecca49ee9ee58ef0a47ee911b424d3a.scn::uid://b4p12tq8mo85b::::res://graphics/characters/Barbarian_barbarian_texture.png
+Barbarian_barbarian_texture.png::CompressedTexture2D::4454490697930814929::1780769479::1780769480::1::::<><><>0<>0<>f2ac222fbfc4f04f93e81cad8dbf5408<>res://.godot/imported/Barbarian_barbarian_texture.png-0aec7549de75fd608f4088014b1b459e.s3tc.ctex::
+barbarian_texture.png::CompressedTexture2D::1546071371098540247::1780769479::1780769480::1::::<><><>0<>0<>56a210613f1c60875e4a956759ff50bc<>res://.godot/imported/barbarian_texture.png-21ec5b138fc012b863db16513bc978db.ctex::
+Knight.glb::PackedScene::347583443074931579::1780769479::1780769486::1::::<><><>0<>0<>ca42576f2c938e57c75dd436a5c089b1<>res://.godot/imported/Knight.glb-07b0fb63fde8f6521f1523dd93af2c42.scn::uid://dm4nqfbmo7b57::::res://graphics/characters/Knight_knight_texture.png
+Knight_knight_texture.png::CompressedTexture2D::8062213287938616512::1780769479::1780769480::1::::<><><>0<>0<>8883cffda82fac1b1bd0fc5e6ef36542<>res://.godot/imported/Knight_knight_texture.png-b8605dcbad01ea3a8078773887a6864f.s3tc.ctex::
+knight_texture.png::CompressedTexture2D::6044143500858201801::1780769479::1780769480::1::::<><><>0<>0<>1f9f097b0d952f0a10eae6b2fbe63c07<>res://.godot/imported/knight_texture.png-aef2ac2dc60d4eeb7f9adf436b8569b0.ctex::
+Mage.glb::PackedScene::1223773111610965981::1780769479::1780769485::1::::<><><>0<>0<>122e99d520babec44304e392f404b592<>res://.godot/imported/Mage.glb-dec4665bc894fa291fd676684dd15079.scn::uid://br7pb7wq70iby::::res://graphics/characters/Mage_mage_texture.png
+Mage_mage_texture.png::CompressedTexture2D::3646605369858589474::1780769479::1780769480::1::::<><><>0<>0<>6d15284b278d461c75f215ac456f7473<>res://.godot/imported/Mage_mage_texture.png-2a18248c69b771b29c016c504993be95.s3tc.ctex::
+mage_texture.png::CompressedTexture2D::1157215139989503121::1780769479::1780769480::1::::<><><>0<>0<>421d39cc727660b55cc3fd8f69b04b2e<>res://.godot/imported/mage_texture.png-868ef3e1e53ba4427f029027a40d1f87.ctex::
+Rogue.glb::PackedScene::399279621187643363::1780769479::1780769484::1::::<><><>0<>0<>0822236fc156cb08721b77859b4db88a<>res://.godot/imported/Rogue.glb-e0d2a561548b9051d73f02329d2fca5b.scn::uid://crj6e76n31x5s::::res://graphics/characters/Rogue_rogue_texture.png
+Rogue_Hooded.glb::PackedScene::2846279354372940247::1780769479::1780769484::1::::<><><>0<>0<>fb7a1c25587fa96933bfc03ef774a2b5<>res://.godot/imported/Rogue_Hooded.glb-7281946c0ac047cbe5ccdbe56548d0b4.scn::uid://c27d7movkdood::::res://graphics/characters/Rogue_Hooded_rogue_texture.png
+Rogue_Hooded_rogue_texture.png::CompressedTexture2D::6734240183001350767::1780769479::1780769480::1::::<><><>0<>0<>db417d96c1f7a53d979c949b731f9634<>res://.godot/imported/Rogue_Hooded_rogue_texture.png-b8b50dc06a0f19f3d8d9d65f52b853c6.s3tc.ctex::
+Rogue_rogue_texture.png::CompressedTexture2D::5986522208235939546::1780769479::1780769480::1::::<><><>0<>0<>7a4af7a4fe5cf645639fadb93f266ed7<>res://.godot/imported/Rogue_rogue_texture.png-2bffc9d141701e6dd645bb3f2365bf77.s3tc.ctex::
+rogue_texture.png::CompressedTexture2D::6983249593380732337::1780769479::1780769480::1::::<><><>0<>0<>a411dc272ec71e00d1832574764574f0<>res://.godot/imported/rogue_texture.png-76796221c778cea5408ddcdd210ea01b.ctex::
+Skeleton_Minion.glb::PackedScene::3751763122378127006::1780769479::1780769483::1::::<><><>0<>0<>4b6487984cb1443f969477c83516ea1c<>res://.godot/imported/Skeleton_Minion.glb-351db0563417f2d402a858807c01cc2d.scn::uid://cjisuxcs42yqy::::res://graphics/characters/Skeleton_Minion_skeleton_texture.png
+Skeleton_Minion_skeleton_texture.png::CompressedTexture2D::5422185815893209088::1780769479::1780769480::1::::<><><>0<>0<>f8f5c09d0e8bbabbbad49b1f1b23f923<>res://.godot/imported/Skeleton_Minion_skeleton_texture.png-6706af3c096efe44eb7b76bb1de5f010.s3tc.ctex::
+Skeleton_Rogue.glb::PackedScene::3506465083783891420::1780769479::1780769482::1::::<><><>0<>0<>7451449e225e0df817189372099a0850<>res://.godot/imported/Skeleton_Rogue.glb-fd87d5b2c98c176c0df6336a6a355a1d.scn::uid://b2qcordn01tkh::::res://graphics/characters/Skeleton_Rogue_skeleton_texture.png
+Skeleton_Rogue_skeleton_texture.png::CompressedTexture2D::4314696839241612135::1780769479::1780769480::1::::<><><>0<>0<>19ed188df4fa3cc8bd7c18443f6a93da<>res://.godot/imported/Skeleton_Rogue_skeleton_texture.png-5208b8a04411a971538839b7290bd9c2.s3tc.ctex::
+Skeleton_Warrior.glb::PackedScene::8123001020247524848::1780769479::1780769481::1::::<><><>0<>0<>7763062ddddbcbf6160eabfd7a135aae<>res://.godot/imported/Skeleton_Warrior.glb-b3287b4099b0d89f905e49f674dc0da9.scn::uid://duhhqkl1ltv53::::res://graphics/characters/Skeleton_Warrior_skeleton_texture.png
+Skeleton_Warrior_skeleton_texture.png::CompressedTexture2D::8577943703193355700::1780769479::1780769480::1::::<><><>0<>0<>13d722bc495d014ee593e3de5f5d1569<>res://.godot/imported/Skeleton_Warrior_skeleton_texture.png-e6bfd66e7bd8fe35e04b84da2200f3f5.s3tc.ctex::
+::res://graphics/test texture/::1780766687
+test_material.tres::StandardMaterial3D::2370112696138870711::1780766687::0::1::::<><><>0<>0<><>::uid://b5rvdbkmx7pvk::::res://graphics/test texture/white.svg
 white.svg::CompressedTexture2D::4528460897431530112::1780766537::1780766568::1::::<><><>0<>0<>0689cb62bc8c50fb9d981b87c498f4b8<>res://.godot/imported/white.svg-1d26d19f7441153eace08ad54c849b52.s3tc.ctex::
 ::res://resources/::1780703631
-::res://scenes/::1780766286
-::res://scenes/levels/::1780766382
-game.tscn::PackedScene::8069674370104837737::1780766382::0::1::::<><><>0<>0<><>::
+::res://scenes/::1780769357
+::res://scenes/characters/::1780769412
+character.tscn::PackedScene::1856262366231249864::1780769362::0::1::::<><><>0<>0<><>::
+player.tscn::PackedScene::7715297041644113159::1780769412::0::1::::<><><>0<>0<><>::uid://1pgmtxih2ang::::res://scenes/characters/character.tscn
+::res://scenes/levels/::1780769091
+game.tscn::PackedScene::8069674370104837737::1780769091::0::1::::<><><>0<>0<><>::uid://81dn604nfutj::::res://graphics/test texture/test_material.tres
 ::res://src/::1780703644
