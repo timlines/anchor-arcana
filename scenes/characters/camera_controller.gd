@@ -17,12 +17,12 @@ func rotate_from_vector(v: Vector2):
 	rotation.x -= v.y
 	rotation.x = clamp(rotation.x, min_limit_x, max_limit_x)
 	
-#func _input(event : InputEvent) -> void:
-	#if event is InputEventMouseMotion:
-		#var mouse_dir_accelerated = event.relative * mouse_acceleration
-		#rotate_from_vector(mouse_dir_accelerated)
-	#if Input.is_action_just_pressed('ui_cancel'):
-		#get_tree().quit()
+func _input(event : InputEvent) -> void:
+	if event is InputEventMouseMotion:
+		var mouse_dir_accelerated = event.relative * mouse_acceleration
+		rotate_from_vector(mouse_dir_accelerated)
+	if Input.is_action_just_pressed('ui_cancel'):
+		get_tree().quit()
 
-#func _ready() -> void:
-	#Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+func _ready() -> void:
+	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
