@@ -1,10 +1,11 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1780766956
+::res://::1780785741
+export_presets.cfg::TextFile::-1::1780774343::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::8242674102888164130::1780698290::1780698299::1::::<><><>0<>0<>f22fb53b9e968a8eda86a41080f70e26<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1780698116::0::1::::<><><>0<>0<><>::
 ::res://data/::1780703604
 ::res://graphics/::1780769455
-::res://graphics/characters/::1780769479
+::res://graphics/characters/::1780769486
 Barbarian.glb::PackedScene::1068549156713218633::1780769479::1780769486::1::::<><><>0<>0<>f388772c7f8f0a15a5a88331987b4709<>res://.godot/imported/Barbarian.glb-0ecca49ee9ee58ef0a47ee911b424d3a.scn::uid://b4p12tq8mo85b::::res://graphics/characters/Barbarian_barbarian_texture.png
 Barbarian_barbarian_texture.png::CompressedTexture2D::4454490697930814929::1780769479::1780769480::1::::<><><>0<>0<>f2ac222fbfc4f04f93e81cad8dbf5408<>res://.godot/imported/Barbarian_barbarian_texture.png-0aec7549de75fd608f4088014b1b459e.s3tc.ctex::
 barbarian_texture.png::CompressedTexture2D::1546071371098540247::1780769479::1780769480::1::::<><><>0<>0<>56a210613f1c60875e4a956759ff50bc<>res://.godot/imported/barbarian_texture.png-21ec5b138fc012b863db16513bc978db.ctex::
@@ -30,9 +31,14 @@ test_material.tres::StandardMaterial3D::2370112696138870711::1780766687::0::1:::
 white.svg::CompressedTexture2D::4528460897431530112::1780766537::1780766568::1::::<><><>0<>0<>0689cb62bc8c50fb9d981b87c498f4b8<>res://.godot/imported/white.svg-1d26d19f7441153eace08ad54c849b52.s3tc.ctex::
 ::res://resources/::1780703631
 ::res://scenes/::1780769357
-::res://scenes/characters/::1780769412
-character.tscn::PackedScene::1856262366231249864::1780769362::0::1::::<><><>0<>0<><>::
-player.tscn::PackedScene::7715297041644113159::1780769412::0::1::::<><><>0<>0<><>::uid://1pgmtxih2ang::::res://scenes/characters/character.tscn
-::res://scenes/levels/::1780769091
-game.tscn::PackedScene::8069674370104837737::1780769091::0::1::::<><><>0<>0<><>::uid://81dn604nfutj::::res://graphics/test texture/test_material.tres
+::res://scenes/characters/::1780785461
+camera_controller.gd::GDScript::4121382357640073244::1780785461::0::1::::<>SpringArm3D<><>0<>0<><>::
+camera_controller.tscn::PackedScene::8386339595454489298::1780781213::0::1::::<><><>0<>0<><>::uid://byyothqd23xvg::::res://scenes/characters/camera_controller.gd
+character.gd::GDScript::5938676642907080508::1780784995::0::1::::Character<>CharacterBody3D<><>0<>0<><>::
+character.tscn::PackedScene::1856262366231249864::1780783312::0::1::::<><><>0<>0<><>::uid://cqu0ev8f5fsh5::::res://scenes/characters/character.gd
+player.gd::GDScript::1794887515017034361::1780784572::0::1::::<>Character<><>0<>0<><>::
+player.tscn::PackedScene::7715297041644113159::1780785461::0::1::::<><><>0<>0<><>::uid://1pgmtxih2ang::::res://scenes/characters/character.tscn<>uid://0tpsgu8qjjg8::::res://scenes/characters/player.gd<>uid://8xmqart5k2vj::::res://scenes/characters/player_skin.tscn<>uid://drqn1110gg03g::::res://scenes/characters/camera_controller.tscn
+player_skin.tscn::PackedScene::2364469732179582607::1780783446::0::1::::<><><>0<>0<><>::uid://br7pb7wq70iby::::res://graphics/characters/Mage_mage_texture.png
+::res://scenes/levels/::1780780230
+game.tscn::PackedScene::8069674370104837737::1780780230::0::1::::<><><>0<>0<><>::uid://81dn604nfutj::::res://graphics/test texture/test_material.tres<>uid://dh6l2yg83vv2v::::res://scenes/characters/player.tscn<>uid://b5rvdbkmx7pvk::::res://graphics/test texture/white.svg
 ::res://src/::1780703644
