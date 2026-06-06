@@ -95,8 +95,7 @@ material = ExtResource("1_e6yxx")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
 
 [node name="Player" parent="Characters" unique_id=1872541040 instance=ExtResource("2_eqihu")]
-acceleration = 8.0
-deceleration = 4.0
+base_speed = null
 
 [node name="CSGTorus3D" type="CSGTorus3D" parent="." unique_id=848236167]
 transform = Transform3D(-0.037550602, 0.9992947, 0, -0.9992947, -0.037550602, 0, 0, 0, 1, 14.3915825, 4.163986, -15.398837)

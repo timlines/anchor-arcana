@@ -1,10 +1,12 @@
 [gd_scene format=3 uid="uid://dh6l2yg83vv2v"]
 
 [ext_resource type="PackedScene" uid="uid://1pgmtxih2ang" path="res://scenes/characters/character.tscn" id="1_rp718"]
+[ext_resource type="Script" uid="uid://0tpsgu8qjjg8" path="res://scenes/characters/player.gd" id="2_dyp2m"]
 [ext_resource type="PackedScene" uid="uid://8xmqart5k2vj" path="res://scenes/characters/player_skin.tscn" id="2_yewv4"]
 [ext_resource type="PackedScene" uid="uid://drqn1110gg03g" path="res://scenes/characters/camera_controller.tscn" id="3_76oj4"]
 
 [node name="Player" unique_id=1872541040 instance=ExtResource("1_rp718")]
+script = ExtResource("2_dyp2m")
 
 [node name="PlayerSkin" parent="." index="1" unique_id=972469985 instance=ExtResource("2_yewv4")]
 
