@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dm8amfyf4ik5v"]
+
+[ext_resource type="Material" uid="uid://81dn604nfutj" path="res://graphics/test texture/test_material.tres" id="1_e6yxx"]
+
+[node name="Game" type="Node3D" unique_id=222599038]
+
+[node name="Terrain" type="CSGCombiner3D" parent="." unique_id=124713915]
+use_collision = true
+collision_mask = 0
+
+[node name="floor" type="CSGBox3D" parent="Terrain" unique_id=1928625711]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+size = Vector3(100, 1, 100)
+material = ExtResource("1_e6yxx")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Terrain" unique_id=928122075]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.563, 1, 4.106)
+size = Vector3(2, 2, 2)
+material = ExtResource("1_e6yxx")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="Terrain" unique_id=793965709]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.444, 0.5, 4.0654106)
+material = ExtResource("1_e6yxx")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="Terrain" unique_id=1868690104]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.3769197, 1.5, 4.1064243)
+size = Vector3(3, 3, 3)
+material = ExtResource("1_e6yxx")
