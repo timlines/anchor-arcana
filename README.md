@@ -1,6 +1,6 @@
 # Anchor Arcana
 
-A 2D action-adventure tower defense game built with Godot.
+A 3D action-adventure tower defense game built with Godot.
 
 ## 🎮 Play the demo:
 [itch.io/anchor-arcana](https://timmers.itch.io/anchor-arcana)
