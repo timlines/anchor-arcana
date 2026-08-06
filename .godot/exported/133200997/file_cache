@@ -1,6 +1,10 @@
 res://graphics/test texture/test_material.tres::f4b3fff3f6c2e06d5052dcc4bf7443cc::1780766687::res://.godot/exported/133200997/export-f07ac6c395cd708dcd3a62d8307f4b18-test_material.res
-res://scenes/characters/character.tscn::2ae52e7b27569d73d8576528df5aad59::1780769362::res://.godot/exported/133200997/export-384f2c9e2c55fed7bdf15e591b3aa5c5-character.scn
-res://scenes/characters/player.tscn::167fb18fd29c83d4d65a66e0fee41540::1780771088::res://.godot/exported/133200997/export-c8ae144dc4ea98eb64848d3bf0e2a75e-player.scn
-res://scenes/characters/player_skin.tscn::cf0abfa498f0a77fc57d5482fd07bc03::1780769665::res://.godot/exported/133200997/export-cf4f593bf349c17751ba8b3f78f5aff3-player_skin.scn
-res://scenes/characters/camera_controller.tscn::2e089587087dd6815e5420e2f34ff087::1780772962::res://.godot/exported/133200997/export-53d521d318afcd6fb25ac22821c9d189-camera_controller.scn
-res://scenes/levels/game.tscn::bf7408e854dba3202cc19798f4466d6e::1780773786::res://.godot/exported/133200997/export-58baeaa54cca0447d5462d1fef7633ef-game.scn
+res://scenes/characters/character.tscn::4ab2e3a10afc06f47c703d9a6fa4b601::1780786549::res://.godot/exported/133200997/export-384f2c9e2c55fed7bdf15e591b3aa5c5-character.scn
+res://scenes/characters/player.tscn::43383fc938d9928c55069cb9574a3e9a::1780853914::res://.godot/exported/133200997/export-c8ae144dc4ea98eb64848d3bf0e2a75e-player.scn
+res://scenes/characters/player_skin.tscn::38649b4b78b22595e7130b85bf1963f7::1780783446::res://.godot/exported/133200997/export-cf4f593bf349c17751ba8b3f78f5aff3-player_skin.scn
+res://scenes/characters/camera_controller.tscn::2e089587087dd6815e5420e2f34ff087::1780797389::res://.godot/exported/133200997/export-53d521d318afcd6fb25ac22821c9d189-camera_controller.scn
+res://scenes/levels/game.tscn::92f142832a5ecbbb6f1e7aaa855b2d01::1780854184::res://.godot/exported/133200997/export-58baeaa54cca0447d5462d1fef7633ef-game.scn
+res://addons/backslash_button/custom_button.tscn::30750d4dfad3130cd97e9257d4260d9e::1780797371::res://.godot/exported/133200997/export-2526d37ff15cfef2e11452b29cf7c6b6-custom_button.scn
+res://addons/backslash_controls/backslash_input.tscn::2666fb2280441af2ae73a5f41fe5107e::1780797371::res://.godot/exported/133200997/export-0fd188ceb600aa57bc501cf69e7ae477-backslash_input.scn
+res://addons/backslash_test/test_runner.tscn::9e1c7af420ed476f5367534a628ceb66::1780797371::res://.godot/exported/133200997/export-2e6915717ec9da2f45bcf6a13494962f-test_runner.scn
+res://addons/backslash_zoom/zoom_settings.tres::4bea0ac1fa08d7a3a7b21bfc1aaba58d::1780797371::res://.godot/exported/133200997/export-474cbf0bfb40a60e185ac70618a11975-zoom_settings.res

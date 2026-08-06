@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ZoomSettings" format=3 uid="uid://bmqpal35w6sva"]
+
+[ext_resource type="Script" path="res://addons/backslash_zoom/zoom_settings.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+map_zoom_landscape = 0.44
+gameplay_zoom_landscape = 1.2
+map_zoom_mobile = 0.44
+gameplay_zoom_mobile = 1.2

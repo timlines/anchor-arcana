@@ -1,0 +1,108 @@
+[gd_scene format=3 uid="uid://ccfwfghplnhd3"]
+
+[ext_resource type="Script" uid="uid://d0unun8svr4fn" path="res://addons/backslash_controls/backslash_input.gd" id="1_input"]
+[ext_resource type="Script" uid="uid://bfax1dq5iwak5" path="res://addons/backslash_controls/virtual_joystick.gd" id="2_joystick"]
+[ext_resource type="Texture2D" uid="uid://bmdqe5fpyfnlg" path="res://addons/backslash_controls/joystick_base.png" id="3_base"]
+[ext_resource type="Texture2D" uid="uid://dr3kqxl7sqkcr" path="res://addons/backslash_controls/joystick_knob.png" id="4_knob"]
+[ext_resource type="Texture2D" uid="uid://belmymmlp8rps" path="res://addons/backslash_controls/button_normal.png" id="5_btn_norm"]
+[ext_resource type="Texture2D" uid="uid://b5mdau63gf8cy" path="res://addons/backslash_controls/button_pressed.png" id="6_btn_press"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_button"]
+radius = 115.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_button"]
+font_size = 18
+outline_size = 4
+outline_color = Color(0, 0, 0, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=210412560]
+layer = 100
+script = ExtResource("1_input")
+
+[node name="VirtualJoystick" type="Control" parent="." unique_id=771281168]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 50.0
+offset_top = -350.0
+offset_right = 350.0
+offset_bottom = -50.0
+grow_vertical = 0
+pivot_offset = Vector2(0, 300)
+script = ExtResource("2_joystick")
+
+[node name="base" type="TextureRect" parent="VirtualJoystick" unique_id=1374129069]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -100.0
+offset_right = 100.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("3_base")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="knob" type="TextureRect" parent="VirtualJoystick" unique_id=632224424]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -40.0
+offset_top = -40.0
+offset_right = 40.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("4_knob")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ActionPad" type="Control" parent="." unique_id=827473612]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -350.0
+offset_top = -350.0
+offset_right = -50.0
+offset_bottom = -50.0
+grow_horizontal = 0
+grow_vertical = 0
+pivot_offset = Vector2(300, 300)
+
+[node name="action1" type="TouchScreenButton" parent="ActionPad" unique_id=31460076]
+position = Vector2(30, 160)
+scale = Vector2(0.3183333, 0.31)
+texture_normal = ExtResource("5_btn_norm")
+texture_pressed = ExtResource("6_btn_press")
+shape = SubResource("CircleShape2D_button")
+action = "action1"
+
+[node name="action2" type="TouchScreenButton" parent="ActionPad" unique_id=2115441949]
+position = Vector2(180, 160)
+scale = Vector2(0.3483333, 0.345)
+texture_normal = ExtResource("5_btn_norm")
+texture_pressed = ExtResource("6_btn_press")
+shape = SubResource("CircleShape2D_button")
+action = "action2"
+
+[node name="menu" type="TouchScreenButton" parent="ActionPad" unique_id=1577728965]
+position = Vector2(110, 30)
+scale = Vector2(0.3316667, 0.3166667)
+texture_normal = ExtResource("5_btn_norm")
+texture_pressed = ExtResource("6_btn_press")
+shape = SubResource("CircleShape2D_button")
+action = "menu"

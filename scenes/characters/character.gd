@@ -21,5 +21,4 @@ func apply_gravity(gravity, delta):
 
 
 func set_move_state(state_name: String):
-	#print("Travel to: ", state_name)
 	move_state_machine.travel(state_name)

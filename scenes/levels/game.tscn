@@ -58,12 +58,12 @@ size = Vector3(100, 1, 100)
 material = ExtResource("1_e6yxx")
 
 [node name="CSGBox3D2" type="CSGBox3D" parent="Terrain" unique_id=928122075]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.563, 1, 4.106)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.31508714, 1, 4.106)
 size = Vector3(2, 2, 2)
 material = ExtResource("1_e6yxx")
 
 [node name="CSGBox3D3" type="CSGBox3D" parent="Terrain" unique_id=793965709]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.444, 0.5, 4.0654106)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0034835339, 0.5, 7.231013)
 material = ExtResource("1_e6yxx")
 
 [node name="CSGBox3D5" type="CSGBox3D" parent="Terrain" unique_id=1218238414]
@@ -77,13 +77,13 @@ size = Vector3(6.236328, 2.7924805, 4.225586)
 material = ExtResource("1_e6yxx")
 
 [node name="CSGBox3D7" type="CSGBox3D" parent="Terrain" unique_id=1556703035]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.062164, 1.3962402, -15.29328)
-size = Vector3(6.236328, 2.7924805, 4.225586)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.765717, 1.3962402, -14.349249)
+size = Vector3(7.6434326, 2.7924805, 6.1136475)
 material = ExtResource("1_e6yxx")
 
 [node name="CSGBox3D8" type="CSGBox3D" parent="Terrain" unique_id=397622730]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.159903, 0.38726044, -15.29328)
-size = Vector3(6.236328, 2.7924805, 4.225586)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.733145, 1.0505295, -15.29328)
+size = Vector3(7.0898438, 4.1190186, 4.225586)
 material = ExtResource("1_e6yxx")
 
 [node name="CSGBox3D4" type="CSGBox3D" parent="Terrain" unique_id=1868690104]
@@ -95,11 +95,9 @@ material = ExtResource("1_e6yxx")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
 
 [node name="Player" parent="Characters" unique_id=1872541040 instance=ExtResource("2_eqihu")]
-acceleration = 8.0
-deceleration = 4.0
 
 [node name="CSGTorus3D" type="CSGTorus3D" parent="." unique_id=848236167]
-transform = Transform3D(-0.037550602, 0.9992947, 0, -0.9992947, -0.037550602, 0, 0, 0, 1, 14.3915825, 4.163986, -15.398837)
+transform = Transform3D(-0.037550602, 0.9992947, 0, -0.9992947, -0.037550602, 0, 0, 0, 1, 14.102239, 6.0131884, -15.398837)
 inner_radius = 2.193888
 outer_radius = 2.833836
 sides = 17
